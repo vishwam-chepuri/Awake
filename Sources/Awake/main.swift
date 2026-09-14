@@ -1,0 +1,3 @@
+import AwakeCore
+
+AwakeApp.main()

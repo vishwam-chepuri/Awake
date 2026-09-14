@@ -228,3 +228,7 @@ supported route until the app is signed with a Developer ID and notarized.
 
 Not sandboxed — the lid-closed helper rules out the App Sandbox and therefore
 the Mac App Store. The intended path is Developer ID + notarization.
+
+## Licence
+
+MIT — see [LICENSE](LICENSE).

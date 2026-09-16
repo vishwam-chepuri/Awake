@@ -81,10 +81,18 @@ Requires the Swift toolchain (Command Line Tools is enough; Xcode is not
 needed).
 
 ```sh
+git clone https://github.com/vishwam-chepuri/Awake.git
+cd Awake
 swift build                 # compile
 swift run AwakeTests        # run the checks
 ./bundle.sh                 # assemble .build/Awake.app
 ./install.sh                # build release, install to /Applications, launch
+```
+
+To uninstall, quit Awake and remove the bundle:
+
+```sh
+rm -rf /Applications/Awake.app
 ```
 
 You need macOS 14 or later to run it, and the app is **not notarized** — see
